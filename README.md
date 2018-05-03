@@ -13,7 +13,7 @@ This is currently being used on http://www.playthis.io to handle the composition
 ### Not on NPM, yet 
 This is not on NPM yet, but will be once it has been developed a bit further. 
 
-## The <View>  Component
+## The View Component
 This component wraps child ```<port>  ``` components and looks for a specific tag that matches an internal breakpoint to determine when to render one of the port components.View listens to a debounced stream of window events for onresize and also listens for the first emitted window width on load.
 
 
