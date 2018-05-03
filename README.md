@@ -15,17 +15,14 @@ This is not on NPM yet, but will be once it has been developed a bit further.
 
 ## The <View> ..</View> Component
 This component wraps child ```<port>  ``` components and looks for a specific tag that matches an internal breakpoint to determine when to render one of the port components.
-| Device Tag      | Equality |
-| ------------- |-------------|
-| desktop    | width >= 900 |
-| tablet      | 900 < width >= 700   |
-| mobile |  width < 700  |
 
 
-| First Header  | Second Header |
+| Device Tag    | Equality      |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| desktop       | width >= 900  |
+| tablet        | 900 > width <= 700 |
+| mobile        | width < 700   |
+
 
 
 ## The <Port [device] component={<Component/>} />
