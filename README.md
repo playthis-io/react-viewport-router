@@ -21,6 +21,13 @@ This component wraps child ```<port>  ``` components and looks for a specific ta
 | tablet      | 900 < width >= 700   |
 | mobile |  width < 700  |
 
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+
 ## The <Port [device] component={<Component/>} />
 this is a child of the ```<View>``` Component. Provide one of the set configured device tags and pass the component to render at the device view to the ```component``` prop. 
 
